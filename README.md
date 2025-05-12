@@ -1,2 +1,2 @@
-# conditionBrepgen
+# conditionBrepGen
 添加了命令序列为条件的Brepgen模型
