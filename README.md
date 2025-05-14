@@ -20,9 +20,13 @@
 
 - 加入一个MLP处理隐编码，和整个网络一起训练，MLP将隐编码嵌入到与其他向量同一维度，进行相加。类似[Transformer](https://arxiv.org/abs/1706.03762)模型加入位置编码。
 
+![图片1](resources/图片1.jpg)
+
 ## 四. sample.py
 
 - 无条件生成过程中， 基于 GAN 模型生成潜在向量后， 去噪器以该潜在向量为条件， 从噪声中还原出 CAD 模型的面信息， 然后逐步生成 CAD 模型的边与顶点信息. 再利用 B 样条曲线曲面拟合，最终得到完整的 B-Rep 表示 。
+
+![图片3](resources/图片3.jpg)
 
 ## 五. conditionsample.py
 
