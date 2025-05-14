@@ -4,7 +4,7 @@
 
 [Brepgen论文](https://github.com/samxuxiang/BrepGen)
 
-[DeepCAD论文][https://github.com/ChrisWu1997/DeepCAD]
+[DeepCAD论文](https://github.com/ChrisWu1997/DeepCAD)
 
 ## 一. dataset.py
 
@@ -26,11 +26,11 @@
 
 ## 五. conditionsample.py
 
-- 给定[DeepCAD数据集][https://github.com/ChrisWu1997/DeepCAD]三维CAD模型提取到的隐编码，进行条件生成
+- 给定[DeepCAD数据集](https://github.com/ChrisWu1997/DeepCAD)三维CAD模型提取到的隐编码，进行条件生成
 
 ---
 
-8_step文件夹为无条件生成结果，其中8.step为GAN模型生成的隐编码经过[DeepCAD模型][https://github.com/ChrisWu1997/DeepCAD]解码，生成的三维CAD模型；其他文件为同一隐编码该方法生成的三维CAD模型。
+8_step文件夹为无条件生成结果，其中8.step为GAN模型生成的隐编码经过[DeepCAD模型](https://github.com/ChrisWu1997/DeepCAD)解码，生成的三维CAD模型；其他文件为同一隐编码该方法生成的三维CAD模型。
 
 00981499文件夹为条件生成结果，00981499_474f71ccbbef9330eda51445_step_010.step为原文件，其中981499为该模型在ABC数据集的索引，其他文件为该方法条件生成结果。
 
