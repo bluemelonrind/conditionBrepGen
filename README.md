@@ -31,7 +31,6 @@
 ## 五. conditionsample.py
 
 - 给定[DeepCAD数据集](https://github.com/ChrisWu1997/DeepCAD)三维CAD模型提取到的隐编码，进行条件生成
-
 ---
 
 8_step文件夹为无条件生成结果，其中8.step为GAN模型生成的隐编码经过[DeepCAD模型](https://github.com/ChrisWu1997/DeepCAD)解码，生成的三维CAD模型；其他文件为同一隐编码该方法生成的三维CAD模型。如下图所示：
@@ -41,5 +40,8 @@
 00981499文件夹为条件生成结果，00981499_474f71ccbbef9330eda51445_step_010.step为原文件，其中981499为该模型在ABC数据集的索引，其他文件为该方法条件生成结果。如下图所示：
 
 ![图片5](resources/图片5.jpg)
+
+我提供了预训练的模型[latent diffusion model](https://drive.google.com/file/d/1PYnxOunpZqJ8ZGuGlSGy2afY4IEXkDLY/view?usp=drive_link)。
+同时提供了DeepCAD数据集每个索引对应的隐编码[Latent code](https://drive.google.com/file/d/1NvZjTxcERYiY34_xT4J0J1-Un-1MNZGQ/view?usp=drive_link)。
 
 粗略比较，该方法对比[Brepgen](https://github.com/samxuxiang/BrepGen) 无条件生成结果JSD指标提升10%。
